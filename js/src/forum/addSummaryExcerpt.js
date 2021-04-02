@@ -59,7 +59,7 @@ export default function addSummaryExcerpt() {
                             ))}
                         </ul>
                     );
-                    items.add(onMobile ? 'excerptImages' : 'excerptImagesM', excerptImages, -100);
+                    items.add(onMobile ? 'excerptImagesM' : 'excerptImages', excerptImages, -100);
                 }
             }
         }

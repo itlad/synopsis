@@ -3,7 +3,7 @@ itlad-synopsis:
     settings:
       excerpt-label: 摘要字符长度
       images-excerpt-enable: 显示图片摘要
-      images-excerpt-length: 设置显示图片摘要的数量（慎用）
+      images-excerpt-length: 设置显示图片摘要的数量
       excerpt-type: 选择作为摘要的帖子
       first-label: 首贴
       last-label: 最新回复

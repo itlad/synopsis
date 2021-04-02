@@ -3,7 +3,7 @@ itlad-synopsis:
     settings:
       excerpt-label: Summary excerpt length in characters
       images-excerpt-enable: Show picture summary
-      images-excerpt-length: Show number of picture summaries (use with caution)
+      images-excerpt-length: Show number of picture summaries
       rich-excerpts: Display excerpts using rich content (use with caution)
       excerpt-type: Which post should be displayed as the excerpt?
       first-label: First post
