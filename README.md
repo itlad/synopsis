@@ -19,13 +19,13 @@ As well as displaying an excerpt as a summary (with configurable length):
 ## Screenshots
 
 #### Admin settings
-![image](https://user-images.githubusercontent.com/16573496/103157392-18bd3e80-47aa-11eb-8760-2108fdb68000.png)
+![image](./admin.png)
 
-#### Rich content in summary
-![image](https://user-images.githubusercontent.com/16573496/103157062-4c4a9980-47a7-11eb-9103-327f3aff0690.png)
+#### content and images in summary
+![image](./flarum.png)
 
 #### User settings
-![image](https://user-images.githubusercontent.com/16573496/103158069-b23c1e80-47b1-11eb-8877-29016b7e4b21.png)
+![image](./user-settings.png)
 ## Installation
 ```
 composer require itlad/synopsis
