@@ -49,7 +49,6 @@ export default function addSummaryExcerpt() {
                 let contentHtml = excerptPost.contentHtml()
                 if (contentHtml) {
                     let images = contentHtml.match(/<img.*?(?:>|\/>)/gi);
-                    excerptImageLength = excerptImageLength ? excerptImageLength : 4;
                     images = images.length > excerptImageLength ? images.slice(0, excerptImageLength) : images;
                     const excerptImages = (
                         <ul className="excerpt-image">
