@@ -1,0 +1,43 @@
+{
+    "name": "itlad/synopsis",
+    "description": "Show summary excerpts on discussion lists.",
+    "type": "flarum-extension",
+    "keywords": [
+        "flarum",
+        "discussion",
+        "summary",
+        "summaries",
+        "excerpt",
+        "excerpts",
+        "synopsis"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "itlad",
+            "homepage": "https://github.com/itlad"
+        }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "Itlad\\Synopsis\\": "src/"
+        }
+    },
+    "conflict": {
+        "jordanjay29/flarum-ext-summaries": "*"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Synopsis",
+            "category": "discussion",
+            "icon": {
+                "name": "fas fa-comment-dots",
+                "backgroundColor": "#0072e3",
+                "color": "#fff"
+            }
+        }
+    }
+}
