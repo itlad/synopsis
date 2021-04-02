@@ -19,13 +19,13 @@ As well as displaying an excerpt as a summary (with configurable length):
 ## Screenshots
 
 #### Admin settings
-![image](./admin.png)
+![image](./screenshots/admin.png)
 
 #### content and images in summary
-![image](./flarum.png)
+![image](./screenshots/flarum.png)
 
 #### User settings
-![image](./user-settings.png)
+![image](./screenshots/user-settings.png)
 ## Installation
 ```
 composer require itlad/synopsis
