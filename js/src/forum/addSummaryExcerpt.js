@@ -49,17 +49,19 @@ export default function addSummaryExcerpt() {
                 let contentHtml = excerptPost.contentHtml()
                 if (contentHtml) {
                     let images = contentHtml.match(/<img.*?(?:>|\/>)/gi);
-                    images = images.length > excerptImageLength ? images.slice(0, excerptImageLength) : images;
-                    const excerptImages = (
-                        <ul className="excerpt-image">
-                            {images.map(img => (
-                                <li>
-                                    <img src={img.match(/src=[\'\"]?([^\'\"]*)[\'\"]?/i)[1]} />
-                                </li>
-                            ))}
-                        </ul>
-                    );
-                    items.add(onMobile ? 'excerptImagesM' : 'excerptImages', excerptImages, -100);
+                    if (images) {
+                        images = images.length > excerptImageLength ? images.slice(0, excerptImageLength) : images;
+                        const excerptImages = (
+                            <ul className="excerpt-image">
+                                {images.map(img => (
+                                    <li>
+                                        <img src={img.match(/src=[\'\"]?([^\'\"]*)[\'\"]?/i)[1]} />
+                                    </li>
+                                ))}
+                            </ul>
+                        );
+                        items.add(onMobile ? 'excerptImagesM' : 'excerptImages', excerptImages, -100);
+                    }
                 }
             }
         }
